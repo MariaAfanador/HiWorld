@@ -2,3 +2,29 @@ header + p  {
     font-family: 'Courier New', Courier, monospace;
     color: red;
 }
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.header {
+    text-align: center;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      
+}
+
+
+.navigation-bar a {
+    margin: 0 30px;
+    text-decoration: none;
+
+}
